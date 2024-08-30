@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&family=Ubuntu&display=swap');
+
+
+
+.bg-dark{
+    background-color: rgb(20, 20, 20);
+}
+.test{
+    border: 1px solid #fff;
+}
+.text-green{
+    color: #059212;
+}
+.border-circle{
+    border-radius: 50%;
+}
+.bg-green{
+    background-color: #059212;
+}
+.border-green{
+    border-color: #059212;
+}
+.w-mid{
+    width: 60rem;
+}
+.part{
+    width: 30rem;
+    height: 30em;
+}
+.search{
+    margin: 0 16px;
+    padding: 3px 7px;
+    background-color: #242222;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.menu-link{
+    margin: 0 16px;
+    padding: 5px 13px;
+    background-color: #242222;
+    border-radius: 12px;
+}
+.active-menu,.menu-link:hover{
+    background-color:  rgb(20, 20, 20);
+    color: #059212;
+}
+
+
+.jersey-10-regular,.font1 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .new-amsterdam-regular,.font2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .ubuntu-regular,.font3 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .icon{
+    font-size: 20px;
+    color: #059212;
+  }
+  .s-icon{
+    border: 1px solid #059212;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.border-circle{
+    border-radius: 50%;
+}
+.cv{
+    border: 1px solid #059212;
+    padding: 5px;
+    margin: 0 10px 0 0;
+    border-radius: 20px;
+}
+
