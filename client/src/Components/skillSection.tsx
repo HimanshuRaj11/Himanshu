@@ -6,7 +6,7 @@ import { SiMongodb, SiTailwindcss } from 'react-icons/si'
 
 export default function SkillSection() {
   return (
-    <div className="skill mt-5 mb-5  w-full pl-12 pr-12 flex flex-col justify-center items-center ">
+    <div className="skill mt-5 mb-5 pl-12 pr-12 flex flex-col justify-center items-center ">
     <div className="text-5xl text-white font2">MY SKILLS</div>
     <div className="flex justify-around flex-wrap">
       <div className="cir border-circle w-36 h-36 border-2 m-6 border-green flex items-center justify-center">

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-const img_src = '/imageGirl1.jpg'
+const img_src = '/blank-paper.jpg'
 export default function ProjectSection() {
   return (
     <div className='project flex flex-col justify-center items-center'>
@@ -10,8 +10,8 @@ export default function ProjectSection() {
 
         <Link href={'/'}>
         <div className="card m-1 border-2 rounded-2xl border-green overflow-hidden">
-          <div className="img h-60 w-72">
-            <Image src={img_src} height={1000} width={800}  alt='' />
+          <div className="img h-52 w-72">
+            <Image src={img_src} width={3048} height={2024}  alt='' />
           </div>
           <div className="brif"></div>
         </div>
