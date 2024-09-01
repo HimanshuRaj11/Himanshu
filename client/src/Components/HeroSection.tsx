@@ -9,8 +9,8 @@ import {
 
 export default function HeroSection() {
   return (
-    <div className="h-auto mb-5 mt-16 ">
-      <div className=" flex sm:flex-row md:flex-row flex-col justify-center items-center">
+    <div className="h-auto mb-5 w-full">
+      <div className="flex sm:flex-row flex-col w-full justify-center sm:justify-around items-center">
         {/* --- */}
         <div className="sm:sm_part part flex justify-center flex-col">
           <span className="text-white">Software Developer</span>
@@ -51,9 +51,12 @@ export default function HeroSection() {
             </Link>
           </div>
         </div>
+
+
         {/* --- */}
-        <div className="sm:sm_part part flex justify-center items-center">
-          <div className="img border-4 border-green border-dashed h-96 w-96 border-circle"></div>
+
+        <div className="flex justify-center items-center">
+          <div className="img border-4 border-green border-dashed mr-5 size-72 lg:size-96 border-circle"></div>
         </div>
       </div>
       {/* ---- */}
