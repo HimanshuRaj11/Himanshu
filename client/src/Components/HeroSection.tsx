@@ -23,10 +23,10 @@ export default function HeroSection() {
             in various programing langiages and technologies.
           </h3>
           <div className="social flex flex-row items-center mt-6">
-            <span className="cv cursor-pointer flex text-green justify-between w-36">
+            <Link href='/himanshu.pdf' download={'himanshu-cv.pdf'} className="cv cursor-pointer flex text-green justify-between w-36">
               {" "}
               Download CV <FaCloudDownloadAlt className="icon" />
-            </span>
+            </Link>
 
             <Link
               href={"https://github.com/HimanshuRaj11"}
