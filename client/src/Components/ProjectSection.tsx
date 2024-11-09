@@ -8,13 +8,15 @@ export default function ProjectSection() {
       <h1 className='text-5xl font2 text-white'>PROJECTS</h1>
       <div className='Projects  w-full flex flex-wrap justify-around items-center'>
 
-        <Link href={'/'}>
-        <div className="card m-1 border-2 rounded-2xl border-green overflow-hidden">
-          <div className="img h-52 w-72">
-            <Image src={img_src} width={3048} height={2024}  alt='' />
+        <Link href={'https://netflixclone.himanshurajyadav.in/'} target='_blank'>
+          <div className="card m-1 border-2 rounded-2xl border-green overflow-hidden bg-white">
+            <div className="img w-72">
+              <Image className='object-fill' src={'/netflix.png'} width={3048} height={2024} alt='Netflix Clone' />
+            </div>
+            <div className="brif text-blacks p-2">
+              <h1>Netflix Clone</h1>
+            </div>
           </div>
-          <div className="brif"></div>
-        </div>
         </Link>
 
       </div>

@@ -21,15 +21,15 @@ export default function Home() {
         {/* Skill Section */}
         <SkillSection />
 
-        <HorizontalLine />
         {/* Newest Blogs */}
-        <BlogSection />
+        {/* <HorizontalLine /> */}
+        {/* <BlogSection /> */}
 
         <HorizontalLine />
         {/* Newest Project */}
         <ProjectSection />
       </div>
-      
+
     </main>
   );
 }
