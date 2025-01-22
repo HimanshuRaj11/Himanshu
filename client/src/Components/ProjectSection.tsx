@@ -18,6 +18,16 @@ export default function ProjectSection() {
             </div>
           </div>
         </Link>
+        <Link href={'https://jiiwal.himanshurajyadav.in/'} target='_blank'>
+          <div className="card m-1 border-2 rounded-2xl border-green overflow-hidden bg-white">
+            <div className="img w-72">
+              <Image className='object-fill' src={'/jiiwal.png'} width={3048} height={2024} alt='jiiwal' />
+            </div>
+            <div className="brif text-blacks p-2">
+              <h1>Jiiwal : Social Media</h1>
+            </div>
+          </div>
+        </Link>
 
       </div>
     </div>
