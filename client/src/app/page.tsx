@@ -9,11 +9,13 @@ import SkillSection from "@/Components/skillSection";
 export default function Home() {
   return (
     <main className="h-auto relative bg-dark w-full flex-col flex items-center justify-center">
-      <div className="h-auto mt-16 sm:mt-32 relative flex flex-col justify-center items-center pb-20 ">
-        {/* Hero section */}
+      {/* Hero section */}
+      <div className="md:mt-16 w-full mt-[5rem]">
         <HeroSection />
+        <div className='w-full border-green border border-dashed'></div>
+      </div>
+      <div className="h-auto relative flex flex-col justify-center items-center pb-20 ">
 
-        <HorizontalLine />
         {/* About Section  */}
         <AboutSection />
 
