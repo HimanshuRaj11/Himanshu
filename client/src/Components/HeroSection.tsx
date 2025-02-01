@@ -14,7 +14,7 @@ export default function HeroSection() {
   return (
 
     <BackgroundBeamsWithCollision>
-      <div className="w-full">
+      <div className="w-full" id={'home'}>
         <div className="flex sm:flex-row flex-col w-full justify-center sm:justify-around items-center">
           {/* --- */}
           <div className="sm:sm_part part flex justify-center flex-col">

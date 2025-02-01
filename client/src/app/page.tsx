@@ -8,7 +8,7 @@ import SkillSection from "@/Components/skillSection";
 
 export default function Home() {
   return (
-    <main className="h-auto relative bg-dark w-full flex-col flex items-center justify-center">
+    <main className="h-auto relative bg-dark w-full flex-col flex items-center justify-center ">
       {/* Hero section */}
       <div className="md:mt-16 w-full mt-[5rem]">
         <HeroSection />

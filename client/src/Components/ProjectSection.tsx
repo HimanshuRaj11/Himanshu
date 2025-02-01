@@ -19,7 +19,7 @@ export default function ProjectSection() {
     },
   ]
   return (
-    <div className='project flex flex-col justify-center items-center'>
+    <div id='project' className='project flex flex-col justify-center items-center'>
       <h1 className='text-5xl font2 text-white'>PROJECTS</h1>
       <div className='Projects  w-full flex flex-wrap justify-around items-center '>
 

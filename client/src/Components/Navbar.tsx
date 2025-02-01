@@ -20,32 +20,29 @@ export default function Navbar() {
             )}
           </div>
 
-          <Link href={"/"} className="logo font3 text-green text-4xl m-4">
+          <Link href={"#home"} className="logo font3 text-green text-4xl m-4">
             Himanshu.
           </Link>
         </div>
         {visible ? (
           <div className="h-screen">
-            <div className="search p-1 m-4">
+            {/* <div className="search p-1 m-4">
               <input
                 type="search"
                 name="search"
                 className="search font2 w-60 p-1 text-center"
                 placeholder="Search..."
               />
-            </div>
+            </div> */}
             <div className="links">
               <div className="text-white menu flex ubuntu-regular items-center flex-col ">
-                <Link href={"/"} className="menu-link w-60 m-5 text-center">
-                  Portfolio
+                <Link href={"#about"} className="menu-link w-60 m-5 text-center">
+                  About
                 </Link>
-                <Link href={"/"} className="menu-link w-60 m-5 text-center">
-                  Blog
+                <Link href={"#skill"} className="menu-link w-60 m-5 text-center">
+                  Skills
                 </Link>
-                <Link href={"/"} className="menu-link w-60 m-5 text-center">
-                  Service
-                </Link>
-                <Link href={"/"} className="menu-link w-60 m-5 text-center">
+                <Link href={"#project"} className="menu-link w-60 m-5 text-center">
                   Project
                 </Link>
               </div>
@@ -59,31 +56,28 @@ export default function Navbar() {
       {/* Lage screen Navbar */}
       <nav className="Large hidden md:block z-50">
         <div className="w-full h-20 flex-row  z-50 backdrop-blur-md fixed bg-transparent flex justify-around items-center">
-          <Link href={"/"} className="logo font3 text-green text-4xl">
+          <Link href={"#home"} className="logo font3 text-green justify-center items-center text-4xl">
             Himanshu.
           </Link>
           <div className="text-white menu flex ubuntu-regular items-center flex-row ">
-            <Link href={"/"} className="menu-link ml-2">
-              Portfolio
+            <Link href={"#about"} className="menu-link ml-2">
+              About
             </Link>
-            <Link href={"/"} className="menu-link ml-2">
-              Blog
+            <Link href={"#skill"} className="menu-link ml-2">
+              Skills
             </Link>
-            <Link href={"/"} className="menu-link ml-2">
-              Service
-            </Link>
-            <Link href={"/"} className="menu-link ml-2">
+            <Link href={"#project"} className="menu-link ml-2">
               Project
             </Link>
           </div>
-          <div className="search">
+          {/* <div className="search">
             <input
               type="search"
               name="search"
               className="search font2 p-2"
               placeholder="Search..."
             />
-          </div>
+          </div> */}
         </div>
       </nav>
     </header>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <div className="about mt-5 mb-5 flex items-center justify-center flex-col sm:flex-row">
+    <div id="about" className="about mt-5 mb-5 flex items-center justify-center flex-col sm:flex-row">
       <div className="img border-4 border-green border-dashed mr-5 size-72 sm:size-96 border-circle"></div>
 
       <div className="details mt-5 ml-5 flex justify-center flex-col w-72 sm:w-96">
