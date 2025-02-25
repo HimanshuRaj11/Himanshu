@@ -17,12 +17,17 @@ export default function ProjectSection() {
       link: "https://cross.himanshurajyadav.in/",
       image: "/crossLogo.png"
     },
+    {
+      title: "Mahadev Studios || freelance Work",
+      description: "Mahadev Studios is a renowned film production house known for producing high-quality documentaries, short films, ad films, web series, music videos, album songs, and more. we have established ourselves as storytelling experts, crafting impactful visual content that resonates with audiences.",
+      link: "https://mahadevstudios.com/",
+      image: "/mahadevStudios.png"
+    },
   ]
   return (
     <div id='project' className='project flex flex-col justify-center items-center'>
       <h1 className='text-5xl font2 text-white'>PROJECTS</h1>
       <div className='Projects  w-full flex flex-wrap justify-around items-center '>
-
         {
           Projects.map((project, index) => {
             return <Projectcard key={index} project={project} />
