@@ -36,11 +36,12 @@ export default function HeroSection() {
             <div className="social flex flex-row items-center mt-6">
               <Link
                 href="/himanshu.pdf"
-                download={"himanshu-cv.pdf"}
-                className="cv cursor-pointer flex text-green justify-between w-36"
+                target='_blank'
+                // download={"himanshu-cv.pdf"}
+                className="cv cursor-pointer flex pl-2 text-green justify-between w-36"
               >
-                {" "}
-                Download CV <FaCloudDownloadAlt className="icon" />
+
+                Resume <FaCloudDownloadAlt className="icon" />
               </Link>
 
               <Link
