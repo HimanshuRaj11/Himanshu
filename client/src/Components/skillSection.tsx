@@ -16,39 +16,11 @@ export default function SkillSection() {
       description: "Proficient in building dynamic user interfaces and single-page applications using React."
     },
     {
-      title: "MongoDb",
-      icon: <SiMongodb className="skill-icon text-3xl  text-green-800" />,
-      rate: 3,
-      category: "Database",
-      description: "Skilled in using MongoDB for database management and handling large datasets."
-    },
-    {
       title: "Nodejs",
       icon: <FaNodeJs className="skill-icon text-3xl  text-green" />,
       rate: 4,
       category: "Runtime Environment",
       description: "Experienced in developing server-side applications and APIs using Node.js."
-    },
-    {
-      title: "Python",
-      icon: <FaPython className="skill-icon text-3xl  text-black" />,
-      rate: 5,
-      category: "Language",
-      description: "Adept at writing clean and efficient code for various applications using Python."
-    },
-    {
-      title: "JavaScript",
-      icon: <IoLogoJavascript className="skill-icon text-3xl  text-yellow-500" />,
-      rate: 5,
-      category: "Language",
-      description: "Expert in JavaScript for creating interactive web applications and enhancing user experience."
-    },
-    {
-      title: "tailwindCss",
-      icon: <SiTailwindcss className="skill-icon text-3xl  text-blue-600" />,
-      rate: 4,
-      category: "CSS Framework",
-      description: "Proficient in using Tailwind CSS for designing responsive and modern web interfaces."
     },
     {
       title: "NextJs",
@@ -58,11 +30,20 @@ export default function SkillSection() {
       description: "Experienced in building server-rendered React applications and optimizing performance with Next.js."
     },
     {
-      title: "Java",
-      icon: <FaJava className="skill-icon text-3xl text-red-500" />,
+      title: "MongoDb",
+      icon: <SiMongodb className="skill-icon text-3xl  text-green-800" />,
+      rate: 3,
+      category: "Database",
+      description: "Skilled in using MongoDB for database management and handling large datasets."
+    },
+
+
+    {
+      title: "tailwindCss",
+      icon: <SiTailwindcss className="skill-icon text-3xl  text-blue-600" />,
       rate: 4,
-      category: "Language",
-      description: "Skilled in using Java for  Data Structures and Algorithms."
+      category: "CSS Framework",
+      description: "Proficient in using Tailwind CSS for designing responsive and modern web interfaces."
     },
     {
       title: "TypeScript",
@@ -70,7 +51,29 @@ export default function SkillSection() {
       rate: 5,
       category: "Language",
       description: "Proficient in using TypeScript for developing large-scale applications with type safety."
-    }
+    },
+    {
+      title: "JavaScript",
+      icon: <IoLogoJavascript className="skill-icon text-3xl  text-yellow-500" />,
+      rate: 5,
+      category: "Language",
+      description: "Expert in JavaScript for creating interactive web applications and enhancing user experience."
+    },
+
+    {
+      title: "Python",
+      icon: <FaPython className="skill-icon text-3xl  text-black" />,
+      rate: 5,
+      category: "Language",
+      description: "Adept at writing clean and efficient code for various applications using Python."
+    },
+    {
+      title: "Java",
+      icon: <FaJava className="skill-icon text-3xl text-red-500" />,
+      rate: 4,
+      category: "Language",
+      description: "Skilled in using Java for  Data Structures and Algorithms."
+    },
   ];
   return (
 
