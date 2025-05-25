@@ -21,7 +21,7 @@ export default function ProjectSection() {
       image: "/crossLogo.png",
       tags: ["Next.js", "Tailwind CSS", "Typescript", "MongoDb", "Socket.io"],
       githubUrl: "https://github.com/HimanshuRaj11/cross",
-      liveUrl: "https://netflixclone.himanshurajyadav.in/"
+      liveUrl: "https://cross-qgi4.onrender.com/"
     },
     {
       title: "Mahadev Studios || freelance Work",
